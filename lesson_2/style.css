@@ -1,31 +1,77 @@
 * {
   margin: 0;
+  background-color: rgb(23, 201, 186);
 }
-html {
-  font-size: 16px;
-}
-
-h1 {
-  color: blue;
-}
-
-p {
-  color: aqua;
-  font-size: 3rem;
-}
-
-.big-div {
-  background-color: yellow;
-  padding: 30px;
+section.header {
+  background-color: pink;
   width: 100vw;
-  height: 100vh;
+  height: 150px;
+}
+section.main {
+  background-color: blueviolet;
+  width: 75%;
+  height: 1450px;
+  margin: 0 auto;
+  padding: 10px 10px;
 }
 
-.little-div {
-  background-color: rgb(0, 116, 170);
-  width: 50%;
-  height: 50%;
-  border: 15px ridge violet;
+.card {
+  background-color: blanchedalmond;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: auto;
+  height: 270px;
+  padding: 10px;
+}
+
+.img-block {
+  background-color: pink;
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.text-block {
+  background-color: blue;
+  width: auto;
+  height: 250px;
+  padding: 10px;
+}
+
+.text-block h2 {
+  color: brown;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
   text-align: center;
-  margin: 0 auto;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.footer {
+  background-color: pink;
+  width: 100vw;
+  height: 150px;
 }
