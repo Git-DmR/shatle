@@ -1,4 +1,76 @@
 * {
   margin: 0;
-  background: crimson;
+}
+section {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.first-screen {
+  height: 700px;
+  background: #e5e5e5;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 1156px;
+  height: 60px;
+  /* background-color: blue; */
+  clear: both;
+  padding-top: 57px;
+  padding-right: 11px;
+}
+
+.logo {
+  width: 96px;
+  height: 60px;
+  background-color: aqua;
+  float: left;
+  font-family: "Revalia";
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 48px;
+  text-align: center;
+}
+
+nav {
+  float: right;
+  padding-top: 22px;
+  background-color: blueviolet;
+}
+
+.about-me {
+  max-height: 366px;
+  background-color: #ffffff;
+  padding-top: 119px;
+}
+
+.about-me-title {
+  max-width: 403px;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.about-me-text {
+  max-width: 540px;
+  height: 67px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26.25px;
+}
+
+.numbers {
+  min-height: 250px;
+  background-color: #34547a;
 }
