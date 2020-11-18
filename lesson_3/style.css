@@ -1,45 +1,112 @@
 * {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
-body {
-  width: 75%;
+.conteiner {
+  width: 1440px;
+  height: 4484px;
+  background-image: url(./img/6.jpg);
+  padding-bottom: 0px;
 }
 
-blockquote {
-  margin: 0;
-  background: white;
-  border-top: 5px solid #eaf9f9;
-  border-bottom: 5px solid #eaf9f9;
-  color: #3a3c55;
-  padding: 30px 30px 30px 90px;
+#header {
+  width: 1440px;
+  height: 300px;
   position: relative;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  background: #00ccff;
+  opacity: 0.3;
+  border: 1px solid #5c0150;
+  margin-bottom: 0;
 }
 
-blockquote:before {
-  content: "\201C";
-  font-family: serif;
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  color: white;
-  background: #fb6652;
-  width: 50px;
+.header-logo {
+  position: relative;
+  width: 300px;
+  height: 130px;
+  background: #ff00cc;
+  opacity: 0.9;
+  border: 1px solid #5c0150;
+  margin-bottom: -30px;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+.header-logo-content {
+  width: 215px;
   height: 50px;
-  border-radius: 50%;
-  font-size: 50px;
-  line-height: 1.35;
-  text-align: center;
+  background: #0400ff;
+  opacity: 0.9;
+  border: 1px solid #5c0150;
 }
 
-blockquote p {
-  margin: 0 0 16px;
-  font-size: 22px;
-  letter-spacing: 0.05em;
-  line-height: 1.4;
+.header-bar {
+  position: absolute;
+  top: 102px;
+  left: 148px;
+  width: 30px;
+  height: 30px;
+  background: #ff00cc;
+  opacity: 0.9;
+  border: 1px solid #5c0150;
 }
-blockquote cite {
-  font-style: normal;
+
+.header-content {
+  width: 750px;
+  height: 140px;
+  background: #0400ff;
+  /* opacity: 0.9; */
+  border: 1px solid #5c0150;
+  z-index: 1;
+}
+
+#description {
+  position: relative;
+  width: 1440px;
+  height: 650px;
+  background: #00ccff;
+
+  opacity: 0.3;
+  border: 1px solid #5c0150;
+}
+
+.description-text {
+  position: absolute;
+  top: 0px;
+  left: 148px;
+  width: 435px;
+  height: 550px;
+  background: #0400ff;
+  /* opacity: 0.5; */
+  border: 1px solid #5c0150;
+  padding-top: 5px;
+}
+
+.description-text-item {
+  width: 435px;
+  height: 12px;
+  background: #0aeb55;
+  margin-bottom: 30px;
+}
+
+.description-text-title {
+  width: 435px;
+  height: 80px;
+  background: #0aeb55;
+  margin-bottom: 80px;
+}
+
+.description-text-content {
+  width: 435px;
+  height: 340px;
+  background: #0aeb55;
+}
+
+#footer {
+  width: 1440px;
+  height: 650px;
+  background: #00ccff;
+
+  opacity: 0.3;
+  border: 1px solid #5c0150;
 }
