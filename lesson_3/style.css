@@ -147,10 +147,70 @@
   font-size: 16px;
 }
 
-#footer {
+#main {
+  position: relative;
   width: 1440px;
-  height: 650px;
+  height: 1395px;
   background: #00ccff;
   opacity: 0.3;
   border: 1px solid #5c0150;
+}
+
+.main-text {
+  width: 845px;
+  height: 1270px;
+  background: #0400ff;
+  border: 1px solid #5c0150;
+  padding-top: 94px;
+}
+
+.main-text-item {
+  width: 75px;
+  height: 12px;
+  background: #0aeb55;
+  margin-bottom: 28px;
+}
+
+.main-text-title {
+  width: 710px;
+  height: 80px;
+  background: #0aeb55;
+  margin-bottom: 725px;
+}
+
+.main-text-content {
+  width: 745px;
+  height: 310px;
+  background: #0aeb55;
+  text-align: center;
+}
+
+.main-image-1 {
+  position: absolute;
+  top: 285px;
+  left: 297.5px;
+  width: 845px;
+  height: 565px;
+  background: #ff7b00;
+  border: 15px solid #f77f7f;
+  border-right: none;
+}
+
+.main-button {
+  position: absolute;
+  bottom: 50px;
+  left: 340px;
+  width: 200px;
+  height: 45px;
+  background-color: red;
+  border: none;
+  border-bottom-left-radius: 22px;
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-top-right-radius: 22px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }
