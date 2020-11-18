@@ -10,12 +10,16 @@
   padding-bottom: 0px;
 }
 
+.opacity {
+  opacity: 0.3;
+}
+
 #header {
   width: 1440px;
   height: 300px;
   position: relative;
   background: #00ccff;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   border: 1px solid #5c0150;
   margin-bottom: 0;
 }
@@ -71,7 +75,7 @@
   width: 1440px;
   height: 750px;
   background: #00ccff;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   border: 1px solid #5c0150;
 }
 
@@ -150,9 +154,9 @@
 #main {
   position: relative;
   width: 1440px;
-  height: 1395px;
+  height: 1400px;
   background: #00ccff;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   border: 1px solid #5c0150;
 }
 
@@ -198,8 +202,114 @@
 
 .main-button {
   position: absolute;
-  bottom: 50px;
+  bottom: 55px;
   left: 340px;
+  width: 200px;
+  height: 45px;
+  background-color: red;
+  border: none;
+  border-bottom-left-radius: 22px;
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-top-right-radius: 22px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#about {
+  position: relative;
+  width: 1440px;
+  height: 1400px;
+  background: #00ccff;
+  /* opacity: 0.3; */
+  border: 1px solid #5c0150;
+}
+
+.about-video {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 1440px;
+  height: 540px;
+  background: #9da5a7;
+  border: 15px solid #e00808;
+}
+
+.about-video-button {
+  position: absolute;
+  bottom: 197px;
+  left: 633px;
+  width: 98px;
+  height: 98px;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.about-photo {
+  position: absolute;
+  top: 695px;
+  left: 250px;
+  width: 425px;
+  height: 285px;
+  background: #ff7b00;
+  border: 15px solid #f77f7f;
+}
+
+.about-text {
+  position: absolute;
+  top: 695px;
+  left: 700px;
+  width: 435px;
+  height: 285px;
+  background: #0400ff;
+  border: 1px solid #5c0150;
+  padding-top: 43px;
+}
+
+.about-text-item {
+  width: 370px;
+  height: 12px;
+  background: #0aeb55;
+  margin-bottom: 29px;
+}
+
+.about-text-title {
+  width: 380px;
+  height: 80px;
+  background: #0aeb55;
+  margin-bottom: 80px;
+}
+
+.about-quote {
+  position: absolute;
+  top: 930px;
+  left: 440px;
+  width: 750px;
+  height: 310px;
+  background: #9f10ca;
+  border: 15px solid #aa0b6d;
+  padding: 45px;
+}
+
+.about-quote-text {
+  width: 555px;
+  height: 175px;
+  background: #0aeb55;
+}
+
+.about-button {
+  position: absolute;
+  bottom: 133px;
+  left: 738.5px;
   width: 200px;
   height: 45px;
   background-color: red;
