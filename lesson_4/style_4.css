@@ -15,10 +15,10 @@
 
 body {
   /* padding-top: 7px; */
-
+  /* 
   height: 5000px;
   background: url(./src/tmp/100500.jpg);
-  opacity: 0.6;
+  opacity: 0.9; */
 }
 
 section {
@@ -217,4 +217,12 @@ nav ul li a {
 .numbers {
   min-height: 250px;
   background-color: #34547a;
+  padding: 100px 375px 100px 405px;
+}
+
+.numbers-item {
+  width: 141px;
+  height: 50px;
+  margin-right: 49px;
+  float: left;
 }
