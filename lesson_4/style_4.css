@@ -180,7 +180,7 @@ nav ul li a {
 
 /*                                              <section class="about-me"> */
 
-.about-me {
+#about-me {
   min-height: 616px;
   background-color: #ffffff;
   padding-top: 119px;
@@ -322,7 +322,7 @@ label p {
   float: right;
 }
 
-.video {
+#video {
   max-width: 1920px;
   min-height: 1004px;
   padding-top: 101px;
@@ -376,7 +376,7 @@ label p {
 
 /*                                              <section class="projects"> */
 
-.projects {
+#projects {
   padding-top: 28px;
 }
 
