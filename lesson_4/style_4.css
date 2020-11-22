@@ -425,8 +425,9 @@ label p {
 /*                                              <section class="last-screen"> */
 
 .last-screen {
-  min-height: 762px;
+  min-height: 913px;
   padding-top: 102px;
+  padding-bottom: 0px;
   background-color: #eeeff1;
 }
 
@@ -468,7 +469,7 @@ label p {
 }
 
 .last-screen form {
-  margin: 0 auto;
+  margin: 0 auto 55px auto;
   width: 600px;
   height: 403px;
   padding-top: 10px;
@@ -525,4 +526,55 @@ label p {
 
 .last-screen-button span {
   letter-spacing: 2.1px;
+}
+
+footer {
+  max-width: 1920px;
+  min-height: 151px;
+  background-color: #34547a;
+}
+
+.footer-content {
+  max-width: 1130px;
+  min-height: 75px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 2px;
+  padding-right: 1px;
+  clear: both;
+}
+
+.footer-name {
+  width: 250px;
+  height: 19px;
+  margin-bottom: 18px;
+  float: left;
+}
+
+.footer-name h3 {
+  font-family: "Roboto-Regular";
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24.61px;
+}
+
+.footer-text {
+  width: 250px;
+  height: 12px;
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21.33px;
+}
+.footer-social-media {
+  height: 25px;
+  width: 200px;
+  padding-top: 3px;
+  float: right;
+}
+.footer-social-media img {
+  float: right;
+  margin-left: 22px;
 }
