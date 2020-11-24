@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.conteiner {
+  margin: 0 auto;
+  width: 75vw;
+  height: 2500px;
+  background: #ffffff;
+}
+
+input:focus {
+  width: 150px;
+  height: 100px;
+  background: yellow;
+}
+
+p::before {
+  content: "true story";
+  color: blue;
+}
+
+p::after {
+  color: red;
+}
