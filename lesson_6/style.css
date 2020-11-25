@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: NercoOne; /* Имя шрифта */
+  src: url(./src/fonts/Nerko_One/NerkoOne-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+  font-family: NercoOne;
+
+  font-size: 42px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.conteiner {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1500px;
+  text-align: center;
+}
+
+h1,
+p {
+  color: crimson;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.parent {
+  display: flex;
+  width: 1500px;
+  background-color: blueviolet;
+}
+
+.child {
+  color: aqua;
+  width: 330px;
+  height: 250px;
+  background-color: brown;
+  border: 10px solid greenyellow;
+}
+
+.parent-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-2 :last-child {
+  order: 1;
+}
+
+.parent-3 {
+  display: flex;
+  flex-flow: row wrap-reverse;
+}
+
+.parent-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent-4 :last-child {
+  order: -1;
+}
+
+.parent-5 {
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+}
