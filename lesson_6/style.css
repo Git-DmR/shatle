@@ -43,7 +43,7 @@ img {
 
 .child {
   color: aqua;
-  width: 330px;
+  width: 15%;
   height: 250px;
   background-color: brown;
   border: 10px solid greenyellow;
@@ -60,11 +60,13 @@ img {
 
 .parent-3 {
   display: flex;
+  background-color: blue;
   flex-flow: row wrap-reverse;
 }
 
 .parent-4 {
   display: flex;
+  background-color: pink;
   flex-direction: row;
 }
 
@@ -75,6 +77,16 @@ img {
 .parent-5 {
   display: flex;
   height: 500px;
+  background-color: blue;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.parent-6 {
+  display: flex;
+  height: 500px;
+  background-color: blueviolet;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
 }
