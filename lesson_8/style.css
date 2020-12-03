@@ -248,4 +248,5 @@ p {
   font-size: 36px;
   text-align: center;
   animation: shadow 0.5s infinite ease-in-out;
+  margin-bottom: 250px;
 }
