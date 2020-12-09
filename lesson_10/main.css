@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --my-color: blue;
+  /* --my-background: aqua; */
+}
+
+h1 {
+  color: var(--my-color);
+}
+
+.two {
+  color: var(--my-var, orange);
+  /* red если --my-var не определена */
+}
+
+.three {
+  background-color: var(--my-var, var(--my-background));
+  /* --my-background если если --my-var не определена */
+}
+
+.three {
+  background-color: var(--my-var, var(--my-background, pink));
+  /* pink если --my-var и --my-background не определены */
+}
