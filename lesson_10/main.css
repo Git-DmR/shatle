@@ -4,7 +4,7 @@
 
 :root {
   --my-color: blue;
-  /* --my-background: aqua; */
+  --my-background: aqua;
 }
 
 h1 {
@@ -24,4 +24,8 @@ h1 {
 .three {
   background-color: var(--my-var, var(--my-background, pink));
   /* pink если --my-var и --my-background не определены */
+}
+
+.four {
+  border: 5px solid var(--my-color);
 }
